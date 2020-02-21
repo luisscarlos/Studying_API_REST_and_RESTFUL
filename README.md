@@ -1,9 +1,6 @@
 # API, REST e RESTFUL
 
 ## API
-Cliente (Client)
-Garçon (pedidos, levar meus pedidos, para a cozinha) (API)
-Cozinha (Server)
 
 Acrônimo de Application Programming Interface (Interface de Programação)
 é basicamente um conjunto de rotinas e padrões estabelecidos por uma
@@ -15,15 +12,6 @@ desta aplicação.
 - Intermediador para troca de informações.
 
 ## REST
-
-Restaurante
-Limpinho,
-Que te atenda bem,
-Te dê aquilo que pediu.
-
-Cliente
-Gritando,
-Xingando.
 
 Um acrônimo para Representational State Transfer (Transferência de Estado
 Representativo).
@@ -65,8 +53,8 @@ códigos, como o javascript, por exemplo, e executar no cliente.
 - _Uniform Interface_: O que é então uma Interface Uniforme? É bem tranquilo... 
 
 
-Sabe quando falei que se você escolher o endpoint `/client` do seu resource, 
-você deve sempre seguir isso para todos os seus Resources? Então, a interface 
+Se você escolher o endpoint `/client` do seu resource, 
+você deve sempre seguir isso para todos os seus Resources. A interface 
 que você está construindo para os resources está seguindo essa constraint. Você 
 criou uma padronização dos seus resources. 
 
@@ -74,25 +62,24 @@ criou uma padronização dos seus resources.
 Então, posso afirmar que (por enquanto) você está seguindo corretamente a proposta.
 
 
-Sabe quando falo que usamos por padrão o .json como formato de escrita das 
-mensagens? Então. Desde que sua API não fiquei usando uma hora json, outra 
+Quando usamos por padrão o .json como formato de escrita das 
+mensagens isso faz com que sua API não fiquei usando uma hora json, outra 
 hora xml,  outra hora outro formato, você continua seguindo o conceito de
  uniformidade da interface, e maneira de se comunicar está bacana. Sua API 
  está coerente até aqui. 
 
 
-Sabe quando falo que nossa API precisa enviar detalhes para quem está consumindo
- ela? Então, precisamos sempre manter nosso resource com informações suficientes
+Nossa API precisa enviar detalhes para quem está consumindo
+ ela. Então, precisamos sempre manter nosso resource com informações suficientes
   para quem vai consumi-lo. Talvez links para outros endpoints, por exemplo. 
-  Muito bem, estamos coerentes neste passo também. 
 
 
 Até aqui, fica intuitivo e tranquilo para meu cliente entender como minha API 
 funciona, e o que posso fazer com ela, então, Interface está Uniforme.
 
 
-Sabe, também, quando falo que devemos usar bem certinho os verbos HTTP para 
-comunicação clara e efetiva? É isso! Matou a charada!! O uso correto dos verbos 
+Devemos usar bem corretamente os verbos HTTP para 
+comunicação clara e efetiva. O uso correto dos verbos 
 é coerente, então, estamos sendo uniformes na nossa interface.
 
 
